@@ -28,7 +28,9 @@ function preload() {
 
 
 function setup() {
-    createCanvas(1000, 1000);
+   var canvas = createCanvas(1000, 1000);
+    canvas.parent('sketch-div');
+
     strokeWeight(3);
     background(255, 255, 255);
     //cursor(GRAB);
